@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_detail_dual_pane_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".list_detail.view.ListDetailActivity">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/root_activity_list_detail"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+    <!-- using the same frame for both ingredients and steps fragments -->
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/root_activity_detail"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

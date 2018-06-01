@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/ingredient_list_item_container"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/ingredient_list_item_container_card_view"
+        card_view:cardCornerRadius="8dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/ingredient_list_item_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:id="@+id/ingredient_name_text_view"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:gravity="start"
+                android:textSize="18sp"
+                android:id="@+id/ingredient_quantity_and_measure_text_view"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</android.support.constraint.ConstraintLayout>
